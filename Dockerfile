@@ -25,7 +25,8 @@ RUN yum -y install \
     net-tools \
     python34 \
     vim \
-    wget
+    wget \
+    rsync
 
 # Install PHP and PHP modules
 RUN yum -y install \
